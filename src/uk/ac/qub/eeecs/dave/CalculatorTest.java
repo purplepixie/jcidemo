@@ -4,16 +4,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class CalculatorTest {
+public class CalculatorTest {
 
 	@Test
-	void testAdd() {
+	public void testAdd() {
 		Calculator c = new Calculator();
 		assertEquals(c.add(10,1), 11);
 	}
 	
 	@Test
-	void testSub() {
+	public void testSub() {
 		Calculator c = new Calculator();
 		assertEquals(c.sub(10,1), 9);
 	}
